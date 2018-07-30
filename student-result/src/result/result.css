@@ -1,0 +1,44 @@
+.wrapperHeader{
+  height: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 3px 0px #ccc;
+  color: #0B6CB3;
+}
+
+.headerSection{
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nameCell, .failed, .topper{
+  text-transform: capitalize;
+}
+.failed{
+  color: red;
+}
+.topper{
+  color: green;
+}
+.resultsHeader{
+  font-weight: bold;
+  width: 200px;
+  justify-content: center;
+  display: flex;
+}
+.nameCell, .cell{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}

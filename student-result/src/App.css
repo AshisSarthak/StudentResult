@@ -1,0 +1,39 @@
+#root{
+  height: 100%;
+}
+.App{
+  height: 100%;
+  padding: 20px;
+}
+.routeSet{
+  height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: space-evenly;
+  /* justify-content: space-evenly; */
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 1px 3px 0px #ccc;
+  box-shadow: 0px 1px 3px 0px #ccc;
+  color: #0B6CB3;
+}
+.routeLink{
+  text-decoration: none;
+  width: 50%;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separator{
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.active{
+  background-color: #0B6CB3;
+  color: white;
+}
